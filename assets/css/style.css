@@ -15,11 +15,11 @@ body {
 
 .eart-i {
     padding: 20px;
-    display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    display: none;
+    width: 50%;
 }
 
 .eart {
@@ -29,6 +29,14 @@ body {
     border-color: red;
     padding: 20px;
     background-color: #fff;
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    font-size: 1.24rem;
+    color: red;
+    margin-top: 20px;
 }
 
 .Weather {
