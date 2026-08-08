@@ -128,3 +128,132 @@ body {
             hsl(43 100% 71%) 58%);
     padding: 0 4px;
 }
+
+/* =========================
+   スマホ対応
+========================= */
+
+@media screen and (max-width: 600px) {
+
+    /* 全体 */
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    /* 地震情報 */
+    .eart-i {
+        padding: 15px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .eart {
+        width: 100%;
+        font-size: 1rem;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #eart-title {
+        font-size: 1.1rem;
+    }
+
+    #eart-info {
+        font-size: 1.2rem;
+    }
+
+    #eart-note {
+        font-size: 1.4rem;
+    }
+
+
+    /* 天気情報 */
+    .Weather {
+        width: calc(100% - 30px);
+        max-width: none;
+        padding: 20px 15px;
+        margin-top: 30px;
+    }
+
+    .Weather h2 {
+        font-size: 1.5rem;
+    }
+
+    .container h4 {
+        font-size: 0.9rem;
+        margin-top: 15px;
+        line-height: 1.8;
+    }
+
+
+    /* 検索エリア */
+    .search {
+        margin-top: 15px;
+        padding: 15px 10px;
+    }
+
+
+    /* 検索ボックス */
+    .search input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+
+    /* 検索ボタン */
+    .search button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+
+    /* 天気情報 */
+    .weather-info {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    /* 都市名 */
+    .search h3 {
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+
+    /* 天気アイコン・天気名 */
+    #weather-description {
+        margin-top: 20px;
+        gap: 5px;
+    }
+
+    #weather-icon {
+        font-size: 55px;
+    }
+
+    #weather-text {
+        font-size: 18px;
+    }
+
+
+    /* 気温・湿度・風速 */
+    .search p {
+        font-size: 1.1rem;
+        margin-top: 15px;
+        margin-left: 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    /* アイコン */
+    .search i {
+        font-size: 1.1em;
+    }
+
+}
